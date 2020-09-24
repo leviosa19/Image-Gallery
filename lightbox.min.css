@@ -137,6 +137,7 @@ body.lb-disable-scrolling {
 }
 .lb-data .lb-caption {
   display: block;
+  text-align: center;
   font-size: 24px;
   font-weight: 600;
   line-height: 1em;
