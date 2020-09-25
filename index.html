@@ -8,30 +8,28 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" 
-          type="text/css" 
-          href="lightbox.min.css"> 
-    <script src="lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+
 
 </head>
 <body>
     <!-- Heading -->
     <div class="heading">
         <h1>Pravin Prabhakar Jade</h1>
-        <h3>Mob: 9420384858 / 7028155511</h3>
+        <h3>Mob: <a class="tel" href="tel:+919420384858">9420384858</a> / <a class="tel" href="tel:+9170281555111">7028155511</a></h3>
     </div>
 
     <hr />
 
     <!-- Gallery -->
     <div class="gallery">
-        <h1 class="">📷 Gallery</h1>
+        <h1 id="gallery-heading">📷 Gallery</h1>
     
         <div class="row">
-            <ul>
+            <ul class="gallerys">
                 <li>
                     <figure>
-                        <a href="img/1.jpg" data-lightbox="mygallery" data-title="खंडोबा - 5gm ">
+                        <a href="img/1.jpg" title="खंडोबा - 5gm ">
                             <img src="img/1.jpg" alt="Khandoba" />
                         </a>
                         <figcaption>
@@ -41,7 +39,7 @@
                 </li>
                 <li>
                     <figure>
-                        <a href="img/2.jpg" data-lightbox="mygallery" data-title="विंध्याचल">
+                        <a href="img/2.jpg" title="विंध्याचल">
                             <img src="img/2.jpg" alt="" />
                         </a>
                         <figcaption>
@@ -51,7 +49,7 @@
                 </li>
                 <li>
                     <figure>
-                        <a href="img/4.jpg" data-lightbox="mygallery" data-title="विंध्याचल">
+                        <a href="img/4.jpg" title="विंध्याचल">
                             <img src="img/4.jpg" alt="" />
                         </a>
                         <figcaption>
@@ -61,7 +59,7 @@
                 </li>
                 <li>
                     <figure>
-                        <a href="img/5.jpg" data-lightbox="mygallery" data-title="विंध्याचल">
+                        <a href="img/5.jpg" title="विंध्याचल">
                             <img src="img/5.jpg" alt="" />
                         </a>
                         <figcaption>
@@ -71,7 +69,7 @@
                 </li>
                 <li>
                     <figure>
-                        <a href="img/6.jpg" data-lightbox="mygallery" data-title="विंध्याचल">
+                        <a href="img/6.jpg" title="विंध्याचल">
                             <img src="img/6.jpg" alt="" />
                         </a>
                         <figcaption>
@@ -81,7 +79,7 @@
                 </li>
                 <li>
                     <figure>
-                        <a href="img/7.jpg" data-lightbox="mygallery" data-title="विंध्याचल">
+                        <a href="img/7.jpg" title="विंध्याचल">
                             <img src="img/7.jpg" alt="" />
                         </a>
                         <figcaption>
@@ -91,7 +89,7 @@
                 </li>
                 <li>
                     <figure>
-                        <a href="img/8.jpg" data-lightbox="mygallery" data-title="विंध्याचल">
+                        <a href="img/8.jpg" title="विंध्याचल">
                             <img src="img/8.jpg" alt="" />
                         </a>
                         <figcaption>
@@ -101,7 +99,7 @@
                 </li>
                 <li>
                     <figure>
-                        <a href="img/9.jpg" data-lightbox="mygallery" data-title="विंध्याचल">
+                        <a href="img/9.jpg" title="विंध्याचल">
                             <img src="img/9.jpg" alt="" />
                         </a>
                         <figcaption>
@@ -111,7 +109,7 @@
                 </li>
                 <li>
                     <figure>
-                        <a href="img/10.jpg" data-lightbox="mygallery" data-title="विंध्याचल">
+                        <a href="img/10.jpg" title="विंध्याचल">
                             <img src="img/10.jpg" alt="" />
                         </a>
                         <figcaption>
@@ -121,7 +119,9 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="img/12.jpg" alt="Picsum.photos Placeholder Image" />
+                        <a href="img/11.jpg" title="विंध्याचल">
+                            <img src="img/11.jpg" alt="" />
+                        </a>
                         <figcaption>
                             <strong>Media Name 1</strong>
                         </figcaption>
@@ -129,7 +129,9 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="img/13.jpg" alt="Picsum.photos Placeholder Image" />
+                        <a href="img/12.jpg" title="विंध्याचल">
+                            <img src="img/12.jpg" alt="" />
+                        </a>
                         <figcaption>
                             <strong>Media Name 1</strong>
                         </figcaption>
@@ -228,6 +230,10 @@
 
     </div>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <script src="app.js"></script>
 
