@@ -2,24 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
-body::-webkit-scrollbar {
-    display: none;
-}
-
-hr {
-    margin: 20px 0;
-}
-
-.heading {
-    display: block;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
-}
-.gallery h1 {
-    margin: 20px;
-}
 body {
 	font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
@@ -38,6 +20,30 @@ body {
 		padding: 2.618em 9.55%;
 	}
 }
+body::-webkit-scrollbar {
+    display: none;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.heading {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.gallery h1 {
+    margin: 20px;
+}
+
+
+.tel {
+	text-decoration: none;
+	color: #4ea8de;
+}
+
 p {
 	font-size: 1.125em;
 	margin: 0 0 1.5em;
