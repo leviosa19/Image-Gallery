@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-	font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.5;
 	margin: 0;
 	padding: 1.618em 1em;
@@ -32,7 +32,8 @@ hr {
     display: block;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
+	margin-top: 20px;
+	letter-spacing: 1px;
 }
 .gallery h1 {
     margin: 20px;
